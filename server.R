@@ -6,7 +6,7 @@
 library(shiny)
 library(ggplot2)
 
-# Define server logic required to draw a histogram
+# Define server logic required to perform the tasks
 shinyServer(function(input, output) {
       x <- reactive({seq(from = input$xrange[[1]],
                          to = input$xrange[[2]],
