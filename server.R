@@ -16,9 +16,6 @@ shinyServer(function(input, output) {
       
       df <- reactive({data.frame(x(),y(), norm())})
       
-      #output$xx <- renderPrint(input$normal)
-      #output$yy <- renderPrint(y())
-      
       output$tplot <- renderPlot({
             if (input$normal == 2) {
                   ggplot(df(), aes(x=x())) +
