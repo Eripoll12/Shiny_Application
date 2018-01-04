@@ -5,4 +5,5 @@ The link to the Shiny app is here:
 https://eripoll12.shinyapps.io/t_Student/
 
 The asssociated documentation is here:
+http://rpubs.com/Eripoll12/346618
 
