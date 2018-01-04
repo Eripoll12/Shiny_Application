@@ -38,12 +38,10 @@ shinyUI(fluidPage(
        submitButton("Apply and submit")
     ),
  
-    # Show a plot of the generated distribution
+    # Plot the results
     mainPanel(
           h3('Results'),
           h4('Plot visualizer'),
-          #verbatimTextOutput("xx"),
-          #verbatimTextOutput("yy"),
             plotOutput("tplot"),
           h5('The "x" range associated with the desired Confidence Interval is:'),
             textOutput("CI"),
